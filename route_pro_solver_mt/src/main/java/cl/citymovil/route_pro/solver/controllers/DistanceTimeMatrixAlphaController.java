@@ -42,6 +42,7 @@ public class DistanceTimeMatrixAlphaController {
     @RequestMapping(method = RequestMethod.GET)
      public void onSubmit()
      {
+    	System.out.print("Probando MERGE rama-test");
     	logger.info("\n[(onSubmit)]start onSubmit\n");
     	   /********** Adicional*/
     	ArrayList<Location> arrayWithIdLocation = locationDAO.getLocationList();
